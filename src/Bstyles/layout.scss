@@ -1,0 +1,10 @@
+@use 'variaveis';
+
+.container {
+    max-width: variaveis.$tamanhoMaximo;
+    width: 100%;
+    margin: 56px auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1%;
+}
